@@ -5,10 +5,15 @@ En este web site se puede comprar autos electricos nuevos o reparar tu auto elec
 
 # PARA INICIAR EL PROYECTO
 
+Descarga los requerimientos:
+ ```bash
+   pip install -r requirements.txt
+  ```
+  Luego:
   ```bash
-  npm install
-  npm run start
+  python manage.py makemigrations
+  python manage.py migrate
+  python manage.py migrate
   ```
 
-O por la extensión Live Server para ver cambios en tiempo real
 
